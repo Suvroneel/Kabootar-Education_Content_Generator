@@ -503,10 +503,16 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Footer
+# Footer
 st.markdown("""
-<div style='text-align: center; color: #6a737d; padding: 3rem 0 2rem 0; font-size: 0.95rem;'>
-    Kabootar Multi-Agent Educational Content Generator | Built with Streamlit & Hugging Face<br>
-    100% Free & Open Source
+<div style='text-align: center; color: #6a737d; padding: 3rem 0 2rem 0; font-size: 0.95rem; line-height: 1.6;'>
+    <p style='margin-bottom: 0.4rem; color: #1a1a1a; font-weight: 500;'>
+        Enjoying Kabootar? Support the project by giving it a star on 
+        <a href="https://github.com/Suvroneel/Kabootar-Educational-Content-Generator" target="_blank" style="color: #ff751f; font-weight: 700; text-decoration: none;">GitHub</a>.
+    </p>
+    <p style='margin: 0; font-size: 0.85rem; color: #8c959f;'>
+        Kabootar Multi-Agent Educational Content Generator | 100% Free & Open Source
+    </p>
 </div>
 """, unsafe_allow_html=True)
 
